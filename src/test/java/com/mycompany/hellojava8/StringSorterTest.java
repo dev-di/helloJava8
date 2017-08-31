@@ -22,7 +22,7 @@ public class StringSorterTest {
     @Test
     public void testSortByLength() {
         System.out.println("sortByLength");
-        String[] input = {"Orange","Banan","Bär"};
+        String[] input = {"Apelsin","Banan","Bär"};
         String[] expResult = {"Bär","Banan","Apelsin"};
         String[] result = StringSorter.sortByLength(input);
         assertArrayEquals(expResult, result);
