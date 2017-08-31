@@ -15,7 +15,7 @@ public class MyMathTest {
         System.out.println("getMin");
         List<Integer> intArray = Arrays.asList(1,2,3);
         MyMath instance = new MyMath();
-        Integer expResult = new Integer(1);
+        Integer expResult = new Integer(2);
         Integer result = instance.getMin(intArray);
         assertEquals(expResult, result);
     }
